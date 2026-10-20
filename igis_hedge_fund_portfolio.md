@@ -82,7 +82,7 @@
 
 - 학회원 사용 피드백 기준 작성시간 약 40분에서 10분 이내로 단축
 - 공식 데이터 처리와 브리핑 출력 구조를 검증하는 오프라인 테스트 30건 통과
-- K-Skill 오픈소스 정식 기능 채택. 업스트림 PR #675 병합 확인
+- K-Skill 오픈소스 정식 기능 채택. 멀티에셋 모닝 브리핑을 포함해 국내외 기업분석, 시장 이벤트 리서치, 한미 국채시장 분석, 한국 채권 종목 조회 등 금융 리서치 AI 스킬 5종의 K-Skill 오픈소스 병합에 기여
 
 > 테스트 수치는 원문 및 저장소 기록 기준입니다. 작성시간 개선 수치는 별도 실험으로 측정하지 않았습니다.
 
@@ -90,7 +90,11 @@
 
 - [GitHub 저장소](https://github.com/bucheoncityboy/multi-asset-morning-briefing)
 - [스킬과 검증 규칙](https://github.com/bucheoncityboy/multi-asset-morning-briefing/blob/main/README.md)
-- [K-Skill 병합 기록](https://github.com/NomaDamas/k-skill/pull/675)
+- [PR #675](https://github.com/NomaDamas/k-skill/pull/675)
+- [PR #682](https://github.com/NomaDamas/k-skill/pull/682)
+- [PR #683](https://github.com/NomaDamas/k-skill/pull/683)
+- [PR #684](https://github.com/NomaDamas/k-skill/pull/684)
+- [PR #685](https://github.com/NomaDamas/k-skill/pull/685)
 
 ---
 
