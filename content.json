@@ -1,6 +1,28 @@
 {
   "name": "김재원",
   "role": "이지스자산운용 증권부문 헤지펀드운용파트 지원",
+  "profile": {
+    "organization": "이지스자산운용",
+    "department": "증권부문 헤지펀드운용파트",
+    "title": "지원 포트폴리오",
+    "summary": ["시장 및 기업 리서치", "주식 운용자료 관리", "AI 활용"],
+    "education": [
+      {"school": "한양대학교(서울)", "major": "경영학부 주전공 / 정보시스템학과 복수전공", "period": "2019.03~2026.08", "status": "졸업"}
+    ],
+    "activities": [
+      {"name": "GAMMA 글로벌마켓학회", "period": "2026.03~현재", "items": ["일간 및 주간 글로벌 시장 브리핑 작성", "해외 IB 리서치 분석 및 주요 시장 변화 정리", "거시경제 분석과 한국은행 통화정책 이벤트 연구"]},
+      {"name": "HY-FIN 재무금융학회", "period": "2025.09~2026.07", "items": ["Fama-French(1993) 재현 및 한국 시장 실증", "환위험 관리 및 환헤지 연구 논문", "WorldQuant Brain 산학협력 활동"]},
+      {"name": "Quantitative Analytics Lab (학부연구생)", "period": "2025.09~2025.12", "items": ["금융 머신러닝 및 Meta-Labeling 연구", "금융 시계열 꼬리위험 정량화 및 리스크 관리"]}
+    ],
+    "credentials": [
+      {"type": "자격증", "name": "투자자산운용사 (금융투자협회)", "date": "2025.10.30"},
+      {"type": "자격증", "name": "SQL 개발자(SQLD)", "date": "2024.04.05"},
+      {"type": "자격증", "name": "ADsP 데이터분석 준전문가", "date": "2024.05.31"},
+      {"type": "수료", "name": "Quantitative Research Consultant (WorldQuant)", "date": "2026.06.04"}
+    ],
+    "experience": {"name": "링커리어 현장실습", "period": "2024.09~2024.12", "items": ["멘토 상담 실적 취합 및 정산", "Excel 정산자료 반영 및 원자료 대조", "담당 기간 정산 오류 0건"]},
+    "competencies": ["시장 및 기업 리서치", "주식 포트폴리오 및 운용자료 관리", "AI 기반 데이터 검증과 업무 자동화"]
+  },
   "projects": [
     {
       "id": "briefing",

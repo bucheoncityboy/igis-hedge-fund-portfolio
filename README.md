@@ -6,10 +6,11 @@
 - 웹 파일: `docs/`
 - 편집용 내용: `content.json`
 - Markdown 원본: `igis_hedge_fund_portfolio.md`
+- A4 5페이지 PDF: `docs/igis_hedge_fund_portfolio.pdf`
 
 ## 편집
 
-`content.json`의 내용을 수정하고 `python build.py`를 실행하면 웹페이지와 Markdown을 함께 갱신합니다. 스타일은 `docs/styles.css`에서 수정합니다. Markdown을 직접 편집할 수도 있으나 빌드하면 `content.json`을 기준으로 덮어씁니다.
+`content.json`의 `profile`은 학력, 교내 활동, 자격증 및 수료, 실무 경험과 핵심 역량을 관리합니다. `projects`는 네 프로젝트의 기존 내용입니다. 내용을 수정하고 `python build.py`를 실행하면 웹페이지와 Markdown을 함께 갱신합니다. 스타일은 `docs/styles.css`에서 수정합니다. Markdown을 직접 편집할 수도 있으나 빌드하면 `content.json`을 기준으로 덮어씁니다.
 
 ## 배포
 
@@ -17,7 +18,9 @@ GitHub Pages의 소스는 `codex/igis-portfolio` 브랜치 `/docs`입니다. 외
 
 ## 화면 및 인쇄
 
-데스크톱과 모바일을 지원하며 브라우저 인쇄 시 A4 세로 5개 섹션으로 구성합니다. 외부 폰트에 의존하지 않고 시스템 한국어 폰트를 사용합니다.
+데스크톱과 모바일을 지원합니다. 인쇄 시 프로필 1페이지와 프로젝트별 1페이지로 A4 세로 총 5페이지를 구성합니다. 고정된 페이지 높이 없이 자연스러운 문서 흐름과 명시적인 페이지 나눔을 사용합니다. 화면의 두 열 레이아웃은 유지하며, 인쇄에서는 짧은 두 프로젝트의 검증 결과를 본문 아래에 배치합니다. 외부 폰트에 의존하지 않고 시스템 한국어 폰트를 사용합니다.
+
+PDF는 Chrome에서 A4, 배율 100%, 머리글/바닥글 끄기, 배경 그래픽 켜기로 출력한 검수본입니다. 내용이나 인쇄 스타일을 수정하면 PDF도 다시 생성하고 5페이지와 요소 잘림을 확인해야 합니다.
 
 ## 사실관계
 
